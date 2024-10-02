@@ -36,7 +36,7 @@ INSTALLED_APPS += [
 
 # apps
 INSTALLED_APPS += [
-    'cats',
+    'users',
 ]
 
 MIDDLEWARE = [
@@ -68,6 +68,9 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'config.wsgi.application'
+
+AUTH_USER_MODEL = "users.User"
+
 
 if DEBUG:
     DATABASES = {
