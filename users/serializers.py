@@ -19,3 +19,10 @@ class RegistrationSerializer(serializers.ModelSerializer):
         model = User
         fields = ['email',
                    'password']
+
+
+class UserSerializer(serializers.ModelSerializer):
+    """Серализация email пользователя"""
+    class Meta:
+        model = User
+        fields = ['email']
