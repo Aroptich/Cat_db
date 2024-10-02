@@ -5,6 +5,8 @@ from users.models.managers import MyUserManager
 
 class User(AbstractUser):
 
+    username = None
+
     email = models.EmailField(
         verbose_name="email address",
         max_length=192,
