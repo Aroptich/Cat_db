@@ -20,3 +20,8 @@ class CatSerializer(serializers.ModelSerializer):
                   'discriprion',
                   'color',
                   'age']
+
+    def update(self, instance, validated_data):
+        """Функция позволяет изменять описание о котенке"""
+        instance.discription = validated_data.get('discriprion', instance.discriprion)
+        return instance
