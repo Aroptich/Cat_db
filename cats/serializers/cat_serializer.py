@@ -17,6 +17,6 @@ class CatSerializer(serializers.ModelSerializer):
                   'name',
                   'owner',
                   'breed',
-                  'discription',
+                  'discriprion',
                   'color',
                   'age']

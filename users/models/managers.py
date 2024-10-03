@@ -24,7 +24,6 @@ class MyUserManager(BaseUserManager):
         Creates and saves a user with the given email and password.
         """
         extra_fields.setdefault('is_admin', False)
-        extra_fields.setdefault('is_staff', False)
         extra_fields.setdefault('is_active', True)
 
 
@@ -39,7 +38,6 @@ class MyUserManager(BaseUserManager):
         Creates and saves a superuser with the given email and password.
         """
         extra_fields.setdefault('is_admin', True)
-        extra_fields.setdefault('is_staff', True)
         extra_fields.setdefault('is_active', True)
 
         return self.new_create_user(
