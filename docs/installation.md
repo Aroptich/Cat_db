@@ -28,7 +28,7 @@ python manage.py migrate
 
 > Предварительная загрузка информации в базу данных
 ```bash
-python manage.py loaddata ????.json
+python manage.py loaddata users.json breed.json cats.json 
 ```
 
 > Запуск сервера
