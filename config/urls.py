@@ -9,7 +9,8 @@ from cats.views import CatView, BreedView
 
 router = DefaultRouter()
 
-router.register('', CatView)
+router.register('cats', CatView)
+print(router.urls)
 
 
 urlpatterns = [
@@ -22,8 +23,8 @@ urlpatterns = [
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('api/token/verify/', TokenVerifyView.as_view(), name='token_verify'),
 
-    #cats.md
-    path('api/cats', include(router.urls)),
+    #cats
+    path('api/', include(router.urls)),
 
     #breed
     path('api/breed', BreedView.as_view(), name='breed'),
