@@ -1,0 +1,26 @@
+[
+  {
+    "model": "cats.cat",
+    "pk": 1,
+    "fields": {
+      "name": "Рыжик",
+      "owner": 2,
+      "color": "Рыжий",
+      "age": 5,
+      "discriprion": "Кусается",
+      "breed": 1
+    }
+  },
+  {
+    "model": "cats.cat",
+    "pk": 2,
+    "fields": {
+      "name": "Том",
+      "owner": 3,
+      "color": "Серый",
+      "age": 3,
+      "discriprion": "Ласковый",
+      "breed": 3
+    }
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "is_superuser": true,
+      "first_name": "",
+      "last_name": "",
+      "date_joined": "2024-10-02T13:04:20.822Z",
+      "email": "admin@mail.ru",
+      "password": "pbkdf2_sha256$870000$Ki6DPT2Dw6wxbb434cQOSO$+yeTku4xzS/c3xiDwhFUWrAS4w8wyg/4K4KRaHS1uQg=",
+      "is_active": true,
+      "is_admin": true,
+      "about_me": "",
+      "at_registration": "2024-10-02T13:04:21.071Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "date_joined": "2024-10-02T13:05:06.565Z",
+      "email": "user1@mail.ru",
+      "password": "1234567aA!",
+      "is_active": true,
+      "is_admin": false,
+      "about_me": "",
+      "at_registration": "2024-10-02T13:05:06.566Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "date_joined": "2024-10-02T13:23:03.248Z",
+      "email": "user2@mail.ru",
+      "password": "1234567aA!",
+      "is_active": true,
+      "is_admin": false,
+      "about_me": "",
+      "at_registration": "2024-10-02T13:23:03.248Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "date_joined": "2024-10-02T13:33:55.249Z",
+      "email": "user3@mail.ru",
+      "password": "1234567aA!",
+      "is_active": true,
+      "is_admin": false,
+      "about_me": "",
+      "at_registration": "2024-10-02T13:33:55.249Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 5,
+    "fields": {
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "date_joined": "2024-10-02T13:50:23.448Z",
+      "email": "user4@mail.ru",
+      "password": "1234567aA!",
+      "is_active": true,
+      "is_admin": false,
+      "about_me": "",
+      "at_registration": "2024-10-02T13:50:23.448Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 6,
+    "fields": {
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "date_joined": "2024-10-02T13:56:15.046Z",
+      "email": "user5@mail.ru",
+      "password": "1234567aA!",
+      "is_active": true,
+      "is_admin": false,
+      "about_me": "",
+      "at_registration": "2024-10-02T13:56:15.047Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 7,
+    "fields": {
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "date_joined": "2024-10-02T14:03:54.379Z",
+      "email": "user6@mail.ru",
+      "password": "pbkdf2_sha256$870000$CCj5eNOuIRkhJQdjqwPdli$ehEIk5orZHZIzmoVro9yeCz4QvEKHZnUxUvspGz/Qxo=",
+      "is_active": true,
+      "is_admin": false,
+      "about_me": "",
+      "at_registration": "2024-10-02T14:03:54.629Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]

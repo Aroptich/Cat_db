@@ -1,0 +1,30 @@
+[
+  {
+    "model": "cats.breed",
+    "pk": 1,
+    "fields": {
+      "name": "Шотландская"
+    }
+  },
+  {
+    "model": "cats.breed",
+    "pk": 2,
+    "fields": {
+      "name": "Сфинкс"
+    }
+  },
+  {
+    "model": "cats.breed",
+    "pk": 3,
+    "fields": {
+      "name": "Русская"
+    }
+  },
+  {
+    "model": "cats.breed",
+    "pk": 4,
+    "fields": {
+      "name": "Персидская"
+    }
+  }
+]
